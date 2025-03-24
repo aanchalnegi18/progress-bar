@@ -1,0 +1,95 @@
+
+.image-1{
+background:url('https://areajugones.sport.es/wp-content/uploads/2022/02/summer-time-rendering-1.jpg');
+}
+
+
+
+
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  flex-direction: column;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vh;
+  
+  padding: 10;
+  
+}
+.step{ width: 80%;
+  
+transition: all 200ms ease;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+justify-content: space-between;
+position: relative;
+}
+.process{
+
+  height: 2px;;
+  width: 100%;
+  border: 2px solid #fff;
+  position: absolute;
+  left :1px;
+  top:40px;
+  bottom: 0px;
+z-index: -1;
+
+}
+
+
+
+.indicator{
+  position: absolute;
+  height: 100%;
+width: 0;
+  border: 2px solid blue;
+transition: all 300ms ease;
+  
+}
+.item{ 
+  
+
+  
+  margin: 10px;;
+  transition: all 700ms ease-in-out 1;
+    height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid gray;
+  flex-basis: 1;
+background-color: #fff;
+  
+}
+h3{
+  padding: 10px 10px;
+  text-align: center;
+  translate: 10% 10%;
+}
+button{
+  height: 50px;
+  width: 100px;
+  background-color: rgb(66, 66, 199);
+  border-radius: 10px;
+}
+.active{
+  
+  
+  border: 3px solid blue;
+
+}
